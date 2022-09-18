@@ -5,9 +5,12 @@ body{
     align-items: center;
 }
 
-li a{
+h1, h2, h3{
+    color: purple;
+}
+
+a{
     text-decoration: none;
-    list-style: none;
 }
 
 h1{
@@ -16,9 +19,37 @@ h1{
 }
 
 .info{
-    width: 100%;
+    width: 80%;
 }
 
-.main-img, .info{
+.main-img{
     width: 80%;
+}
+
+.main-img{
+    border-radius: 20px;
+}
+
+ul li{ 
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    list-style: none;
+}
+
+.home-button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.home-links{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(243, 186, 243);
+    padding: 10px;
+    border-radius: 20px;
+    gap: 15px;
 }
